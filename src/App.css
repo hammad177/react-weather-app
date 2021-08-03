@@ -1,12 +1,17 @@
 /** @format */
 
 input[type='text'] {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 input[type='text']:focus {
   box-shadow: none;
   background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+input[type='text']::placeholder {
+  color: rgb(207, 207, 207);
 }
 
 .button:focus {

@@ -85,6 +85,7 @@ const App = () => {
             onChange={getValue}
             value={query}
             onKeyPress={search}
+            placeholder='Enter city ...'
             className='w-75 m-auto form-control border-0 mb-2 fw-bold'
           />
           <div className=' mb-2 rounded' id='weather-detail'>
